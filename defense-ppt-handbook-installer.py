@@ -30,6 +30,9 @@ SKILL_NAME = "defense-ppt-handbook"
 SKILL_MD = """---
 name: defense-ppt-handbook
 description: "按 Odyphus《答辩核心手册》的八大黄金准则制作或修改答辩、社会实践汇报、项目展示类 PPT；当用户要求制作这类演示文稿或指定使用该风格时启用。"
+metadata:
+  author: WuHaolin318
+  version: "1.0.0"
 ---
 
 # 答辩 PPT 制作手册
@@ -76,8 +79,12 @@ description: "按 Odyphus《答辩核心手册》的八大黄金准则制作或�
 """
 
 OPENAI_YAML = """interface:
-  display_name: "Defense Ppt Handbook"
-  short_description: "Help with Defense Ppt Handbook tasks"
+  display_name: "答辩 PPT 手册"
+  short_description: "按Odyphus答辩核心手册八大准则制作答辩与汇报PPT"
+  brand_color: "#B42318"
+  default_prompt: "Use $defense-ppt-handbook to create a polished defense or report PPT."
+policy:
+  allow_implicit_invocation: true
 """
 
 

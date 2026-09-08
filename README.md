@@ -1,4 +1,29 @@
-# 基于 Q-Learning 的智能体迷宫自主导航系统
+# maze-qlearning / Codex Skills
+
+这个仓库公开托管 Codex Skills，同时保留原来的 maze-qlearning 学习项目。
+
+## Available Skills
+
+### defense-ppt-handbook
+
+按 Odyphus《答辩核心手册》的八大黄金准则制作答辩、社会实践汇报、项目展示类 PPT。
+
+- 技能入口：[skills/defense-ppt-handbook/](skills/defense-ppt-handbook/)
+- Skills 索引：[skills/](skills/)
+
+Codex 安装：
+
+```bash
+python install-skill-from-github.py --repo WuHaolin318/maze-qlearning --path skills/defense-ppt-handbook
+```
+
+普通下载：直接访问 [skills/defense-ppt-handbook/SKILL.md](skills/defense-ppt-handbook/SKILL.md)，保存到 `~/.codex/skills/defense-ppt-handbook/SKILL.md`。
+
+---
+
+## 原有 Q-Learning 项目
+
+### 基于 Q-Learning 的智能体迷宫自主导航系统
 
 一个用经典 Q-learning（Q 表）实现的 6×6 迷宫导航项目。
 智能体从起点出发，通过反复试错学会避开墙壁、走向终点，
@@ -131,7 +156,7 @@ TD target = 1 + 0.9 * 0 = 1
 | 参数 | 默认值 | 含义 | 调大 / 调小的影响 |
 | --- | --- | --- | --- |
 | alpha | 0.1 | 学习率，新信息占比 | 太大震荡、太小学得慢 |
-| gamma | 0.9 | 折扣因子，未来奖励权重 | 太大短视、太小只看眼前 |
+| gamma | 0.9 | 折扣因子，未来奖励权重 | 太大忽视眼前、太小只看眼前 |
 | epsilon | 1.0 → 0.05 | 探索概率 | 太多乱走、太少学不到新经验 |
 | N_EPISODES | 3000 | 训练局数 | 太少学不完、太多浪费时间 |
 | MAX_STEPS | 150 | 每局最大步数 | 防止无限循环 |

@@ -1,6 +1,9 @@
 ---
 name: defense-ppt-handbook
 description: "按 Odyphus《答辩核心手册》的八大黄金准则制作或修改答辩、社会实践汇报、项目展示类 PPT；当用户要求制作这类演示文稿或指定使用该风格时启用。"
+metadata:
+  author: WuHaolin318
+  version: "1.0.0"
 ---
 
 # 答辩 PPT 制作手册
