@@ -1,4 +1,4 @@
-# maze-qlearning =
+# maze-qlearning
 
 这个仓库公开托管 maze-qlearning 学习项目
 
