@@ -1,27 +1,6 @@
-# maze-qlearning / Codex Skills
+# maze-qlearning =
 
-这个仓库公开托管 Codex Skills，同时保留原来的 maze-qlearning 学习项目。
-
-## Available Skills
-
-### defense-ppt-handbook
-
-按 Odyphus《答辩核心手册》的八大黄金准则制作答辩、社会实践汇报、项目展示类 PPT。
-
-- 技能入口：[skills/defense-ppt-handbook/](skills/defense-ppt-handbook/)
-- Skills 索引：[skills/](skills/)
-
-Codex 安装：
-
-```bash
-python install-skill-from-github.py --repo WuHaolin318/maze-qlearning --path skills/defense-ppt-handbook
-```
-
-普通下载：直接访问 [skills/defense-ppt-handbook/SKILL.md](skills/defense-ppt-handbook/SKILL.md)，保存到 `~/.codex/skills/defense-ppt-handbook/SKILL.md`。
-
----
-
-## 原有 Q-Learning 项目
+这个仓库公开托管 maze-qlearning 学习项目
 
 ### 基于 Q-Learning 的智能体迷宫自主导航系统
 
